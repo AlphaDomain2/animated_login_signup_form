@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #eee;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.login-signup-form {
+  width: 60%;
+  height: 70%;
+  border-radius: 10px;
+  margin: 0 auto;
+  background-color: #fff;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  transition: all 1s ease-in;
+}
+.form {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.sign-in-form {
+  padding: 5.6rem 4.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.8rem;
+}
+.heading-primary {
+  font-size: 3rem;
+}
+.social-media-links {
+  display: flex;
+  gap: 1.8rem;
+}
+.icon {
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  font-size: 1.8rem;
+  padding: 1rem;
+  color: #444;
+}
+.text {
+  font-size: 1.4rem;
+  color: #444;
+}
+.input-box {
+  border: none;
+  width: 100%;
+  cursor: pointer;
+  height: 3.8rem;
+  padding: 1.2rem;
+  font-size: 1.6rem;
+  background-color: #ddd;
+}
+
+.link:link,
+.link:visited {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #495057;
+}
+.btn {
+  background-color: #e8590c;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  padding: 0.8rem 3rem;
+}
+.sign-up-form {
+  padding: 5.6rem 4.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.form-change {
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(to right, #e10b0b, #a31348);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.form-change-signup {
+  height: 100%;
+  padding: 5.6rem 4.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3.2rem;
+}
+.form-change-signin {
+  height: 100%;
+  padding: 5.6rem 4.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3.2rem;
+}
+.hidden {
+  display: none;
+}
+.slide-left {
+  transform: translateX(-100%);
+}
+.slide-right {
+  transform: translateX(100%);
+}
+.form .slide-right {
+  transform: translateX(100%);
+}
+.form-change .slide-left {
+  transform: translateX(0);
+}
+.heading {
+  font-size: 3rem;
+  color: #fff;
+  letter-spacing: 0.13rem;
+}
+.text2 {
+  font-size: 1.6rem;
+  color: #fff;
+  text-align: center;
+}
+.new--btn {
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: transparent;
+}

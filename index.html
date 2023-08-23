@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Login and Signup Page</title>
+  </head>
+  <body>
+    <div class="login-signup-form">
+      <section class="form">
+        <section class="sign-in-form">
+          <h2 class="heading-primary">Sign in</h2>
+          <section class="social-media-links">
+            <ion-icon name="logo-facebook" class="icon"></ion-icon>
+            <ion-icon name="logo-google" class="icon"></ion-icon>
+            <ion-icon name="logo-linkedin" class="icon"></ion-icon>
+          </section>
+          <p class="text">or Use your account</p>
+          <input type="email" placeholder="Email" class="input-box" />
+          <input type="password" placeholder="password" class="input-box" />
+          <a href="#" class="link">Forgot your password?</a>
+          <button class="btn">Sign in</button>
+        </section>
+        <section class="sign-up-form hidden">
+          <h2 class="heading-primary">Sign up</h2>
+          <section class="social-media-links">
+            <ion-icon name="logo-facebook" class="icon"></ion-icon>
+            <ion-icon name="logo-google" class="icon"></ion-icon>
+            <ion-icon name="logo-linkedin" class="icon"></ion-icon>
+          </section>
+          <p class="text">or Use your email for registration</p>
+          <input type="text" placeholder="Name" class="input-box" />
+          <input type="email" placeholder="Email" class="input-box" />
+          <input type="password" placeholder="password" class="input-box" />
+          <!-- <a href="#" class="link">Forgot your password?</a> -->
+          <button class="btn">Sign up</button>
+        </section>
+      </section>
+      <section class="form-change">
+        <div class="form-change-signup">
+          <h2 class="heading">Hello, Friend!</h2>
+          <p class="text2">
+            Enter your personal details and start journey with us
+          </p>
+          <button class="signup-change btn new--btn">Sign Up</button>
+        </div>
+        <div class="form-change-signin hidden">
+          <h2 class="heading">Welcome Back!</h2>
+          <p class="text2">
+            To keep connected with us please login with your personal info
+          </p>
+          <button class="signin-change btn new--btn">Sign In</button>
+        </div>
+      </section>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
